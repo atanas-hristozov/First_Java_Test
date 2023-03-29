@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        double firstNumber = 15.8;
+        double secondNumber = 31.4;
+        double thirdNumber = 44.2;
+        double sum = (firstNumber + secondNumber) * thirdNumber;
+        String firstName = "Atanas";
+        String lastName = "Hristozov";
+        String fullName = firstName + " " + lastName;
+        System.out.println(fullName);
+        System.out.println("My First Number is " + firstNumber + " " + secondNumber + " and their sum is " + sum);
+        Scanner userInput = new Scanner(System.in);
+        String addedName = userInput.next();
+        System.out.println(fullName + " " + addedName);
+    }
+}
